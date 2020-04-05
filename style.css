@@ -1,0 +1,148 @@
+
+#heading{
+    background-color: #59AAA5;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    text-align: end;
+}
+ul li{
+    display: inline;
+    padding: 5px;
+    border-left: solid 1px #A69B99;
+}
+
+ul li:first-child{
+    border-left: none;
+}
+
+#links{
+    float: right;
+    padding: 18px 0;
+}
+
+ul li a{
+    color: #A69B99;
+}
+
+header{
+    border-bottom: solid 2px #A69B99;
+}
+
+.background-image{
+    background-image: url(wall.jpg);
+    
+}
+
+button{
+    background-color: #59AAA5;
+    color: #FFFFFF;
+    padding: 0 20px
+}
+
+.box {
+    background-color: white;
+    border: solid 1px #A69B99;
+    
+}
+.contact-form{
+    padding: 20px;
+}
+
+@media (max-width: 768px) { 
+    ul{
+    list-style: none;
+    text-align: center;
+ }
+
+}
+
+@media (min-width: 992px) {
+    .box{
+        width: 60%;
+    }
+}
+
+
+
+#box{
+    padding-top: 20px;
+    padding-bottom: 300px;
+}
+
+.contact-form h2{
+    color: #59AAA5;
+}
+
+div label{
+    color: #A69B99;
+}
+
+form h2{
+    border-bottom: solid 3px #A69B99;
+    margin: 25px 0px;
+}
+
+footer{
+    background-color: #666666;
+    text-align: center;
+    padding: 10px;
+    border-top: solid 5px #59AAA5;
+    font-size: smaller;
+}
+
+/*About me page*/
+
+@media (max-width: 767.98px) {
+    .about-me-img{
+        height: 450px;
+        width: 450px;
+        float: left;
+        margin: 10px;
+     }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .about-me-img{
+        height: 250px;
+        width: 250px;
+        float: left;
+        margin: 10px;
+     }
+}
+
+@media (min-width: 992px){
+.about-me-img{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 10px;
+    }
+}
+
+
+p {
+    line-height: 2;
+}
+
+/*Portfolio page*/
+
+.card-title{
+    text-align: center;
+    background-color: #59AAA5;
+    padding: 15px;
+}
+
+.card-img-overlay{
+    padding: 0px;
+}
+
+#card-img{
+    margin-top: 50px;
+}
+
+
